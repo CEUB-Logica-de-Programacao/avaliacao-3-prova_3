@@ -19,12 +19,16 @@
 #
 # Isso porque existem dois jogadores com altura máxima (180).
 #
-# Para obter a nota máxima dessa questão, deve-se utilizar apenas um ``for`` e nenhuma função pronta do Python.
-
+# Para obter a nota máxima dessa questão, deve-se utilizar apenas um ``for`` e nenhuma função pronta do Python
 def q1(heights):
-    # Escreva seu código aqui
-    return 0
-
-
+ contador = 0
+ maior = 0
+ for item in heights:
+  if item>maior:
+   maior = item
+   contador *= 0
+  if maior==item:
+   contador +=1
+ return contador
 if __name__ == '__main__':
-    print(q1([180, 166, 170, 180]))
+ print(q1([180, 166, 170, 180]))

@@ -31,8 +31,16 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
 def q3(arr, d):
-    # Escreva seu código aqui
-    return 0
+    trincas=[]
+    for i in arr:
+        a = []
+        if((i+d) in arr):
+            if(i+2*d) in arr:
+                a.append(i)
+                a.append(i+d)
+                a.append(i+(2*d))
+                trincas.append(a)
+    return(len(trincas))
 
 
 if __name__ == '__main__':

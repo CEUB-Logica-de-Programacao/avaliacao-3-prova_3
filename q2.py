@@ -21,9 +21,11 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
 def q2(start, end):
-    # Escreva seu código aqui
-    return []
-
-
+     numeros = []
+     for a in range(start, end+1):
+          x = a**(1/2)
+          if x // 1 == x:
+               numeros.append(a)
+     return numeros
 if __name__ == '__main__':
     print(q2(1, 9))
