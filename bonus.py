@@ -49,7 +49,6 @@ def _printParenteses(str, pos, n,
             str[pos] = '{'
             _printParenteses(str, pos + 1, n,
                               open + 1, close)
-n = int(input('Número de parenteses: '))
 str = [""] * 2 * n
 printParenteses(str, n)
 if __name__ == '__main__':
