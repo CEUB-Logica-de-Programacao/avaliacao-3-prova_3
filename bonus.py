@@ -24,7 +24,8 @@
 #
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
-def bonus(str, n):
+def bonus(n):
+    def printParenteses(str, n):
     if(n > 0):
         _printParenteses(str, 0,
                           n, 0, 0)
@@ -44,11 +45,8 @@ def _printParenteses(str, pos, n,
         if(open < n):
             str[pos] = '('
             _printParenteses(str, pos + 1, n,
-                              open + 1, close)
+                              open + 1, close)                            
 str = [""] * 2 * n
 printParenteses(str, n)
-    return (printParenteses)
-
-
 if __name__ == '__main__':
     print(bonus(10))
