@@ -27,15 +27,14 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
 def q4(s):
-    if s == ' ':
-        maiusculas = 0
-        return(maiusculas)
+    if s == '':
+        M = 0
+        return(M)
     else:
-        maiusculas = 1
+        M = 1
         for i in s:
             if(i>='A' and i<='Z'):
-                maiusculas += 1
-        return(maiusculas)
-
+                M += 1
+        return(M)
 if __name__ == '__main__':
     print(q4('hexaVemEsseAno'))
