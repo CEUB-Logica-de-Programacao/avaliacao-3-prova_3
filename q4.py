@@ -26,13 +26,13 @@
 #
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
-def q4(a):
-    if a == ' ':
+def q4(s):
+    if s == ' ':
         maiusculas = 0
         return(maiusculas)
     else:
         maiusculas = 1
-        for i in a:
+        for i in s:
             if(i>='A' and i<='Z'):
                 maiusculas += 1
         return(maiusculas)
