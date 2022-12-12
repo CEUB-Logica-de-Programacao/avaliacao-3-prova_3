@@ -31,7 +31,7 @@ def q1(heights):
   if maior == alturas:
    count +=1
  return count
-
+return 0
 
 if __name__ == '__main__':
     print(q1([180, 166, 170, 180]))
