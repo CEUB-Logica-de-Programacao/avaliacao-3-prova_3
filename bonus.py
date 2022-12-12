@@ -33,11 +33,11 @@ def bonus(n):
  
 
     if(Open < n):
-        gerarParenteses(n, Open+1, close, s+"{", ans)
+        gerarParenteses(n, Open+1, close, s+"(", ans)
  
   
     if(close < Open):
-        gerarParenteses(n, Open, close + 1, s+"}", ans)
+        gerarParenteses(n, Open, close + 1, s+")", ans)
  
  
 n = 3
