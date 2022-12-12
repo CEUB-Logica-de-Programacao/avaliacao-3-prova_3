@@ -21,14 +21,14 @@
 #
 # Para obter a nota máxima dessa questão, deve-se utilizar apenas um ``for`` e nenhuma função pronta do Python
 def q1(heights):
-     count = 0 
-     maior = 0 
-     for item in heights: 
-         if item > maior: 
-             maior = item 
-             count *= 0 
-         if maior == item: 
-             count +=1 
+     count = 0 
+     maior = 0 
+     for item in heights: 
+         if item > maior: 
+             maior = item 
+             count *= 0 
+         if maior == item: 
+             count +=1 
           
      return count
 
