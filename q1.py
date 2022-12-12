@@ -25,10 +25,10 @@ def q1(altura):
     count = 0 
     maioraltura = 0 
     for alturas in altura: 
-        if alturas > maior: 
-            maioraltura = item 
+        if alturas > maioraltura: 
+            maioraltura = alturas 
             count *= 0 
-            if maioraltura == item:
+            if maioraltura == alturas:
                 count +=1
     return count
 
