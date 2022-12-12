@@ -31,3 +31,4 @@ def q1(heights):
    count +=1
  return count
 if __name__ == '__main__':
+ print(q1([180, 166, 170, 180]))
