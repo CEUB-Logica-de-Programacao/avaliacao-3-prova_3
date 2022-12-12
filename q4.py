@@ -27,7 +27,7 @@
 # Para obter a nota máxima dessa questão, não deve-se utilizar nenhuma função pronta do Python.
 
 def q4(s):
-    if a == ":
+    if a == ' ':
         maiusculas = 0
         return(maiusculas)
     else:
