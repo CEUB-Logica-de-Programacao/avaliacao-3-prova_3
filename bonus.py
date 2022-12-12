@@ -47,7 +47,7 @@ def _printParenteses(str, pos, n,
                               open + 1, close)
 str = [""] * 2 * n
 printParenteses(str, n)
-    return []
+    return (printParenteses)
 
 
 if __name__ == '__main__':
